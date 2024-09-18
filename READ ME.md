@@ -304,7 +304,7 @@ GROUP BY 1
 ORDER BY 1 DESC;
 ```
 ### Results
-![The average age of Formula One drivers through years)](Visu\The_average_age_f1_v1.png)
+![The average age of Formula One drivers through years)](Visu/The_average_age_f1_v1.png)
 This line graph tracks the average age of Formula One drivers across different eras:
 
 * In the 1950s, the average driver was around 37 years old.
@@ -337,7 +337,7 @@ INNER JOIN total_drivers AS td
 ON tw.nationality = td.nationality
 ```
 ### Results
-![Number of drivers and wins by nationality](Visu\Number_of_drivers.png)
+![Number of drivers and wins by nationality](Visu/Number_of_drivers.png)
 This visualization demonstrates the relationship between the number of drivers from a country and the number of wins achieved by those drivers. Key insights include:
 
 * British dominance: With the highest number of drivers (163) in Formula One history, British drivers also lead by wins (313).
@@ -467,7 +467,7 @@ ON union_stat.driver_name = drivers_age.driverref
 ORDER BY points_per_race DESC
 ```
 ### Results
-![The average points per race for top drivers (2018-2024)](Visu\top_3_drivers.png)
+![The average points per race for top drivers (2018-2024)](Visu/top_3_drivers.png)
 This chart compares the average points per race for top Formula One drivers between 2018 and 2024:
 
 * Hamilton: Consistently performed well with the highest average points per race from 2018 to 2021, peaking at 19.43 in 2018, but showing a decline to 9.17 in 2024.
